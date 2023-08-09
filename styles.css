@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header, nav, footer {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Specific styling */
+.intro {
+    text-align: center;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
